@@ -389,6 +389,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/chm_cl00/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/huawei/chm_cl00/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/huawei/chm_cl00/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
+    vendor/huawei/chm_cl00/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/huawei/chm_cl00/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/huawei/chm_cl00/proprietary/lib64/libhuawei_secure.so:system/lib64/libhuawei_secure.so \
     vendor/huawei/chm_cl00/proprietary/lib64/libOmxVdecHevc.so:system/lib64/libOmxVdecHevc.so \
@@ -396,6 +397,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/chm_cl00/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/huawei/chm_cl00/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
     vendor/huawei/chm_cl00/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
+    vendor/huawei/chm_cl00/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/huawei/chm_cl00/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/huawei/chm_cl00/proprietary/vendor/bin/sound_trigger_test:system/vendor/bin/sound_trigger_test \
     vendor/huawei/chm_cl00/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
