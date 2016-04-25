@@ -138,6 +138,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/chm_cl00/proprietary/bin/wlan_detect:system/bin/wlan_detect \
     vendor/huawei/chm_cl00/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/huawei/chm_cl00/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
+    vendor/huawei/chm_cl00/proprietary/etc/aanc_tuning_mixer.txt:system/etc/aanc_tuning_mixer.txt \
     vendor/huawei/chm_cl00/proprietary/etc/calib_ath.cfg:system/etc/calib_ath.cfg \
     vendor/huawei/chm_cl00/proprietary/etc/calib_fdr.cfg:system/etc/calib_fdr.cfg \
     vendor/huawei/chm_cl00/proprietary/etc/calib_kiw.cfg:system/etc/calib_kiw.cfg \
@@ -441,7 +442,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/chm_cl00/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/huawei/chm_cl00/proprietary/lib/lib_oeminfo_interface.so:system/lib/lib_oeminfo_interface.so \
     vendor/huawei/chm_cl00/proprietary/lib/libdmd.so:system/lib/libdmd.so \
+    vendor/huawei/chm_cl00/proprietary/lib/libtfa9895.so:system/lib/libtfa9895.so \
+    vendor/huawei/chm_cl00/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/huawei/chm_cl00/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
+    vendor/huawei/chm_cl00/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/huawei/chm_cl00/proprietary/lib64/libchromatix_imx135_liveshot.so:system/lib64/libchromatix_imx135_liveshot.so \
     vendor/huawei/chm_cl00/proprietary/lib64/libhuawei_secure.so:system/lib64/libhuawei_secure.so \
     vendor/huawei/chm_cl00/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
@@ -456,11 +460,12 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/chm_cl00/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/huawei/chm_cl00/proprietary/lib64/lib_oeminfo_interface.so:system/lib64/lib_oeminfo_interface.so \
     vendor/huawei/chm_cl00/proprietary/lib64/libdmd.so:system/lib64/libdmd.so \
+    vendor/huawei/chm_cl00/proprietary/lib64/libtfa9895.so:system/lib64/libtfa9895.so \
+    vendor/huawei/chm_cl00/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/huawei/chm_cl00/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/huawei/chm_cl00/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/huawei/chm_cl00/proprietary/vendor/bin/sound_trigger_test:system/vendor/bin/sound_trigger_test \
     vendor/huawei/chm_cl00/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/huawei/chm_cl00/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     vendor/huawei/chm_cl00/proprietary/vendor/etc/calmodule.cfg:system/vendor/etc/calmodule.cfg \
     vendor/huawei/chm_cl00/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/huawei/chm_cl00/proprietary/vendor/etc/pdc_ALE_CL00.txt:system/vendor/etc/pdc_ALE_CL00.txt \
@@ -1150,7 +1155,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
-    vendor/huawei/chm_cl00/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/libextendedremotedisplay.so:system/vendor/lib/libextendedremotedisplay.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
@@ -1307,8 +1311,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/huawei/chm_cl00/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
-    vendor/huawei/chm_cl00/proprietary/vendor/lib/libmmparser_lite.so:system/vendor/lib/libmmparser_lite.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
@@ -2015,8 +2017,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/chm_cl00/proprietary/vendor/lib64/libmmcamera_s5k5e2_ofilm_ohw5f02.so:system/vendor/lib64/libmmcamera_s5k5e2_ofilm_ohw5f02.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib64/libmmcamera_s5k9a1_liteon.so:system/vendor/lib64/libmmcamera_s5k9a1_liteon.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
-    vendor/huawei/chm_cl00/proprietary/vendor/lib64/libmmparser.so:system/vendor/lib64/libmmparser.so \
-    vendor/huawei/chm_cl00/proprietary/vendor/lib64/libmmparser_lite.so:system/vendor/lib64/libmmparser_lite.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib64/libmmrtpdecoder.so:system/vendor/lib64/libmmrtpdecoder.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib64/libmmrtpencoder.so:system/vendor/lib64/libmmrtpencoder.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib64/libmmwfdinterface.so:system/vendor/lib64/libmmwfdinterface.so \
