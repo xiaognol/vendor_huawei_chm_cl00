@@ -1185,6 +1185,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/libmdsprpc.so:system/vendor/lib/libmdsprpc.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
+    vendor/huawei/chm_cl00/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
@@ -1399,6 +1400,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
+    vendor/huawei/chm_cl00/proprietary/vendor/lib/libcalmodule_common.so:system/vendor/lib/libcalmodule_common.so \
+    vendor/huawei/chm_cl00/proprietary/vendor/lib/libjni_livedisplay.so:system/vendor/lib/libjni_livedisplay.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
@@ -1449,6 +1452,12 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/chm_cl00/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
+    vendor/huawei/chm_cl00/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
+    vendor/huawei/chm_cl00/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
+    vendor/huawei/chm_cl00/proprietary/vendor/lib64/libcryptfs_hw.so:system/vendor/lib64/libcryptfs_hw.so \
+    vendor/huawei/chm_cl00/proprietary/vendor/lib64/libjni_livedisplay.so:system/vendor/lib64/libjni_livedisplay.so \
+    vendor/huawei/chm_cl00/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
+    vendor/huawei/chm_cl00/proprietary/vendor/lib64/libqct_resampler.so:system/vendor/lib64/libqct_resampler.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib64/libactuator_imx214_foxconn.so:system/vendor/lib64/libactuator_imx214_foxconn.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib64/libactuator_imx214_foxconn_camcorder.so:system/vendor/lib64/libactuator_imx214_foxconn_camcorder.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib64/libactuator_imx214_foxconn_camera.so:system/vendor/lib64/libactuator_imx214_foxconn_camera.so \
@@ -2115,6 +2124,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/chm_cl00/proprietary/vendor/lib64/hw/nfc_nci.qc199x.default.so:system/vendor/lib64/hw/nfc_nci.qc199x.default.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib64/qcdrm/playready/lib/libtzplayready_customer.so:system/vendor/lib64/qcdrm/playready/lib/libtzplayready_customer.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so:system/vendor/lib64/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so \
+    vendor/huawei/chm_cl00/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/huawei/chm_cl00/proprietary/wifi/wifi_clpc_2.3.sh:system/wifi/wifi_clpc_2.3.sh \
     vendor/huawei/chm_cl00/proprietary/wifi/wifi_clpc_mt_2.3.sh:system/wifi/wifi_clpc_mt_2.3.sh \
     vendor/huawei/chm_cl00/proprietary/wifi/wifi_clpc_mt_finish_2.3.sh:system/wifi/wifi_clpc_mt_finish_2.3.sh \
