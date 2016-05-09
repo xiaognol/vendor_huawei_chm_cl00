@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/chm_cl00/proprietary/app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system/app/qcrilmsgtunnel/qcrilmsgtunnel.apk \
     vendor/huawei/chm_cl00/proprietary/app/shutdownlistener/shutdownlistener.apk:system/app/shutdownlistener/shutdownlistener.apk \
     vendor/huawei/chm_cl00/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
+    vendor/huawei/chm_cl00/proprietary/xbin/busybox:system/xbin/busybox \
     vendor/huawei/chm_cl00/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/huawei/chm_cl00/proprietary/bin/aostlmd:system/bin/aostlmd \
     vendor/huawei/chm_cl00/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
@@ -446,6 +447,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/chm_cl00/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/huawei/chm_cl00/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/huawei/chm_cl00/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
+    vendor/huawei/chm_cl00/proprietary/lib/hw/fm.qcom.msm8916.so:system/lib/hw/fm.qcom.msm8916.so \
+    vendor/huawei/chm_cl00/proprietary/lib/hw/lights.msm8916.so:system/lib/hw/lights.msm8916.so \
     vendor/huawei/chm_cl00/proprietary/lib64/libchromatix_imx135_liveshot.so:system/lib64/libchromatix_imx135_liveshot.so \
     vendor/huawei/chm_cl00/proprietary/lib64/libhuawei_secure.so:system/lib64/libhuawei_secure.so \
     vendor/huawei/chm_cl00/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
@@ -462,6 +465,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/chm_cl00/proprietary/lib64/libdmd.so:system/lib64/libdmd.so \
     vendor/huawei/chm_cl00/proprietary/lib64/libtfa9895.so:system/lib64/libtfa9895.so \
     vendor/huawei/chm_cl00/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
+    vendor/huawei/chm_cl00/proprietary/lib64/hw/fm.qcom.msm8916.so:system/lib64/hw/fm.qcom.msm8916.so \
+    vendor/huawei/chm_cl00/proprietary/lib64/hw/lights.msm8916.so:system/lib64/hw/lights.msm8916.so \
     vendor/huawei/chm_cl00/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/huawei/chm_cl00/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/huawei/chm_cl00/proprietary/vendor/bin/sound_trigger_test:system/vendor/bin/sound_trigger_test \
