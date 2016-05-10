@@ -449,6 +449,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/chm_cl00/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/huawei/chm_cl00/proprietary/lib/hw/fm.qcom.msm8916.so:system/lib/hw/fm.qcom.msm8916.so \
     vendor/huawei/chm_cl00/proprietary/lib/hw/lights.msm8916.so:system/lib/hw/lights.msm8916.so \
+    vendor/huawei/chm_cl00/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
     vendor/huawei/chm_cl00/proprietary/lib64/libchromatix_imx135_liveshot.so:system/lib64/libchromatix_imx135_liveshot.so \
     vendor/huawei/chm_cl00/proprietary/lib64/libhuawei_secure.so:system/lib64/libhuawei_secure.so \
     vendor/huawei/chm_cl00/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
@@ -467,6 +468,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/chm_cl00/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/huawei/chm_cl00/proprietary/lib64/hw/fm.qcom.msm8916.so:system/lib64/hw/fm.qcom.msm8916.so \
     vendor/huawei/chm_cl00/proprietary/lib64/hw/lights.msm8916.so:system/lib64/hw/lights.msm8916.so \
+    vendor/huawei/chm_cl00/proprietary/lib64/hw/audio.primary.msm8916.so:system/lib64/hw/audio.primary.msm8916.so \
     vendor/huawei/chm_cl00/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/huawei/chm_cl00/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/huawei/chm_cl00/proprietary/vendor/bin/sound_trigger_test:system/vendor/bin/sound_trigger_test \
