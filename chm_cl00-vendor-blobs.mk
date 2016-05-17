@@ -113,8 +113,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/chm_cl00/proprietary/bin/radish:system/bin/radish \
     vendor/huawei/chm_cl00/proprietary/bin/rebootmgr:system/bin/rebootmgr \
     vendor/huawei/chm_cl00/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/huawei/chm_cl00/proprietary/bin/rild:system/bin/rild \
-    vendor/huawei/chm_cl00/proprietary/bin/rmnetcli:system/bin/rmnetcli \
     vendor/huawei/chm_cl00/proprietary/bin/send_data_srv:system/bin/send_data_srv \
     vendor/huawei/chm_cl00/proprietary/bin/setup_fs:system/bin/setup_fs \
     vendor/huawei/chm_cl00/proprietary/bin/shutdownanimation:system/bin/shutdownanimation \
@@ -139,6 +137,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/chm_cl00/proprietary/bin/wlan_detect:system/bin/wlan_detect \
     vendor/huawei/chm_cl00/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/huawei/chm_cl00/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
+    vendor/huawei/chm_cl00/proprietary/etc/ons.bin:system/etc/ons.bin \
     vendor/huawei/chm_cl00/proprietary/etc/aanc_tuning_mixer.txt:system/etc/aanc_tuning_mixer.txt \
     vendor/huawei/chm_cl00/proprietary/etc/calib_ath.cfg:system/etc/calib_ath.cfg \
     vendor/huawei/chm_cl00/proprietary/etc/calib_fdr.cfg:system/etc/calib_fdr.cfg \
@@ -437,10 +436,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/chm_cl00/proprietary/lib/libqmi_oem_api.so:system/lib/libqmi_oem_api.so \
     vendor/huawei/chm_cl00/proprietary/lib/libqmi_oem_svc.so:system/lib/libqmi_oem_svc.so \
     vendor/huawei/chm_cl00/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/huawei/chm_cl00/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/huawei/chm_cl00/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/huawei/chm_cl00/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-    vendor/huawei/chm_cl00/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/huawei/chm_cl00/proprietary/lib/lib_oeminfo_interface.so:system/lib/lib_oeminfo_interface.so \
     vendor/huawei/chm_cl00/proprietary/lib/libdmd.so:system/lib/libdmd.so \
     vendor/huawei/chm_cl00/proprietary/lib/libtfa9895.so:system/lib/libtfa9895.so \
@@ -458,10 +453,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/chm_cl00/proprietary/lib64/libqmi_nv_api.so:system/lib64/libqmi_nv_api.so \
     vendor/huawei/chm_cl00/proprietary/lib64/libqmi_oem_api.so:system/lib64/libqmi_oem_api.so \
     vendor/huawei/chm_cl00/proprietary/lib64/libqmi_oem_svc.so:system/lib64/libqmi_oem_svc.so \
-    vendor/huawei/chm_cl00/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
-    vendor/huawei/chm_cl00/proprietary/lib64/libril.so:system/lib64/libril.so \
-    vendor/huawei/chm_cl00/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
-    vendor/huawei/chm_cl00/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/huawei/chm_cl00/proprietary/lib64/lib_oeminfo_interface.so:system/lib64/lib_oeminfo_interface.so \
     vendor/huawei/chm_cl00/proprietary/lib64/libdmd.so:system/lib64/libdmd.so \
     vendor/huawei/chm_cl00/proprietary/lib64/libtfa9895.so:system/lib64/libtfa9895.so \
