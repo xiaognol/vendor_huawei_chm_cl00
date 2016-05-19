@@ -1399,7 +1399,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/libcalmodule_common.so:system/vendor/lib/libcalmodule_common.so \
-    vendor/huawei/chm_cl00/proprietary/vendor/lib/libjni_livedisplay.so:system/vendor/lib/libjni_livedisplay.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
@@ -1453,7 +1452,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/chm_cl00/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib64/libcryptfs_hw.so:system/vendor/lib64/libcryptfs_hw.so \
-    vendor/huawei/chm_cl00/proprietary/vendor/lib64/libjni_livedisplay.so:system/vendor/lib64/libjni_livedisplay.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib64/libqct_resampler.so:system/vendor/lib64/libqct_resampler.so \
     vendor/huawei/chm_cl00/proprietary/vendor/lib64/libactuator_imx214_foxconn.so:system/vendor/lib64/libactuator_imx214_foxconn.so \
